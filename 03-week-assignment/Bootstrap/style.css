@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.motto {
+  display: block;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+#motto {
+  text-align: center;
+  background-color: #c6c6c6;
+  border: none;
+  display: block
+}

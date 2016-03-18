@@ -158,7 +158,9 @@ nav a:hover {
 }
 
 .socialbtn {
-
+  padding: 20px;
+  display: inline-block;
+  width: 960px;
 }
 
 footer {
