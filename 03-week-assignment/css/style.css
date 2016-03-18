@@ -52,6 +52,9 @@ body {
      font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 {
+
+}
 
 /******************************************
 /* LAYOUT
@@ -64,17 +67,106 @@ body {
 }
 
 header {
+  background-color: #294051;
+}
+
+#main {
+  background-color: #eeeeed;
+  float: left;
+  width: 630px;
+  height: 400px;
+}
+
+#sidebar {
+  background-color: #eeeeed;
+  border: solid 1px red;
+  float: left;
+  width: 330px;
+  height: 400px;
+}
+
+/* NAV BAR HERE */
+nav {
+    text-align: right;
+    display: inline;;
+}
+
+nav ul {
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 120px;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    font-size: 18px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    background: #294051;
+    color: #e5d55d;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #111;
+}
+/*END NAV BAR*/
+
+.logo {
+    color: #eeeeed;
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+#signup {
+  height: 100px;
+  background-color: #f9e160;
+  clear: both;
+}
+
+.bluebutton {
+  display: inline;
+  width: 230px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 22px;
+  color: #eeeeed;
+  padding: 10px 10px;
+  margin: 25px auto;
+  background-color: #294051;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.yellowlogo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.socialbtn {
 
 }
 
 footer {
-
+  background-color: #2e2e2e;
+  color: white;
+  height: 300px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
