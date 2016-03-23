@@ -52,6 +52,9 @@ body {
      font-family: Helvetica, Arial, sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
 
 
 /******************************************
@@ -71,36 +74,76 @@ header {
 #main {
   background-color: #eeeeed;
   float: left;
-  max-width: 630px;
-  height: 1300px;
+  max-width: 65%;
+  height: 100%;
   padding: 30px;
   padding-left: 50px;
+  display: block;
 }
 
 #main h2 {
   font-size: 30px;
+  font-weight: 500;
 }
 
 #main span {
   font-size: 48px;
 }
 
-#main p {
-  font-size: 16px;
-}
-
 #main img {
   width: 580px;
 }
 
+.readmore {
+  float: right;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  color: #294051;
+}
+
 #sidebar {
   background-color: #eeeeed;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   float: left;
-  max-width: 330px;
-  height: 1300px;
-  padding: 20px;
-  padding-top: 30px;
+  max-width: 35%;
+  height: 1258px; /* change to % for responsive site */
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#sidebar .readmore {
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  color: #294051;
+}
+
+#sidebar h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li a {
+  font-size: 16px;
+  color: grey;
+  text-decoration: none;
+}
+
+#sidebar p {
+  margin: 0;
+}
+
+#sidebar img {
+  margin-top: 75px;
 }
 
 /* NAV BAR HERE */
@@ -170,22 +213,27 @@ nav a:hover {
   font-size: 36px;
   font-weight: 800;
   color: #f9e42e;
-  text-align: center;
   margin: 0 auto;
   padding: 40px;
 }
 
 .socialbtn {
-  padding: 20px;
-  display: inline;
-  width: 960px;
-  position: relative;
+  /*padding: 20px;*/
+}
+
+.socialbtn img {
+  padding: 0 20px;
 }
 
 footer {
   background-color: #2e2e2e;
   color: white;
   height: 300px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 75px;
 }
 
 /******************************************
