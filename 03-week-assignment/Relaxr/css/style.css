@@ -91,7 +91,7 @@ header {
 }
 
 #main img {
-  width: 580px;
+  width: 100%;
 }
 
 .readmore {
@@ -107,7 +107,7 @@ header {
   /*border: solid 1px red;*/
   float: left;
   max-width: 35%;
-  height: 1258px; /* change to % for responsive site */
+  height: 1230px; /* change to % for responsive site */
   padding: 10px;
   padding-left: 30px;
 }
